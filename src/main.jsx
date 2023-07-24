@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       {
         path: '/details/:id',
         element:<PrivateRoute><DetailsCompo></DetailsCompo></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/details/${params.id}`)
+        loader: ({ params }) => fetch(`https://booking-college-server-zeta.vercel.app/details/${params.id}`)
 
 
       },

@@ -22,7 +22,7 @@ const AdmissionForm = () => {
         const student = { candidateName, subject, candidatePhone, candidateEmail, dateOfBirth, address, image };
         console.log(student);
         form.reset();
-        fetch('http://localhost:5000/students', {
+        fetch('https://booking-college-server-zeta.vercel.app/students', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

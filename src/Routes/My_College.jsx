@@ -7,7 +7,7 @@ const My_College = () => {
      const { user } = useContext(AuthContext);
     const [myCollege, setMyCollege] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/students?email=${user?.email}`)
+        fetch(`https://booking-college-server-zeta.vercel.app/students?email=${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 setMyCollege(data)
