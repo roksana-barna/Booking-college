@@ -1,0 +1,9 @@
+/* .featured-item{
+    background-image: url('../../assets/SA.jpg');
+} */
+.featured-item {
+    background-image: url('../../assets/SA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

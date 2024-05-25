@@ -13,7 +13,7 @@ const SearchCollege = ({ collegeCard, onSearch }) => {
     };
 
     return (
-        <div className="p-4">
+        <div className="p-4 mt-10">
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

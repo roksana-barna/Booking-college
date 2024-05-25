@@ -28,7 +28,7 @@ const Header = () => {
 </>
     return (
         <>
-        <div className="navbar bg-blue-900">
+        <div className="navbar fixed  z-10 bg-opacity-30 max-w-screen-xl bg-black text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,8 +39,8 @@ const Header = () => {
                     </ul>
                 </div>
                 {/* <img className='w-10 h-10  ml-2 rounded-2xl' src={logo} alt="" /> */}
-                <FaBookOpen className='text-white h-5 w-5'></FaBookOpen>
-                <a className="btn btn-ghost normal-case text-2xl text-white">BookMyCampus</a>
+                <FaBookOpen className='text-white h-5 w-5 ml-4'></FaBookOpen>
+                <a className="btn btn-ghost normal-case text-2xl ml-1 text-white">Eduplan</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
