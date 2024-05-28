@@ -13,9 +13,10 @@ const SearchCollege = ({ collegeCard, onSearch }) => {
     };
 
     return (
-        <div className="p-4 mt-10">
+        <div className="p-4 mt-10 justify-center">
             <form onSubmit={handleSubmit}>
-                <input
+              <aside className='flex lg:w-2/4 justify-center'>
+              <input
                     type="text"
                     value={searchTerm}
                     onChange={handleChange}
@@ -28,6 +29,7 @@ const SearchCollege = ({ collegeCard, onSearch }) => {
                 >
                     Search
                 </button>
+              </aside>
             </form>
         </div>
     );
